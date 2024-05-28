@@ -14,28 +14,23 @@ p {
   font-size: 18px;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-}
-
-ul {
-  display: flex;
-  list-style: none;
-}
-
-li {
-  margin: 0 10px;
-  font-size: 18px;
-}
-a {
-  color: green;
-  display: block;
+.order-link {
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
+  text-decoration: none;
+  color: blueviolet;
 }
 img {
   display: block;
   margin: 30px auto;
   width: 800px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  margin: 0 10px;
+  color: green;
 }
